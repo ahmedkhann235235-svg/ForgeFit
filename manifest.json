@@ -1,8 +1,9 @@
 {
   "name": "ForgeFit",
-  "short_name": "Forge",
-  "start_url": "index.html",
+  "short_name": "ForgeFit",
+  "start_url": "/index.html",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#000000"
 }
