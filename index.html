@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ForgeFit</title>
 
+  <meta name="theme-color" content="#000000" />
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+
+  <div class="app">
+
+    <div id="home" class="screen active">
+      <h1> ForgeFit</h1>
+      <p id="streak">Streak: 0 days</p>
+
+      <button onclick="startWorkout()">Start Workout</button>
+    </div>
+
+    <div id="workout" class="screen">
+      <h2>Push Day</h2>
+
+      <div class="card">
+        <p>Bench Press</p>
+        <p>3 x 10</p>
+        <button onclick="completeSet()">Complete Set</button>
+      </div>
+
+      <button class="finish" onclick="finishWorkout()">Finish Workout</button>
+    </div>
+
+  </div>
+
+  <div class="nav">
+    <button onclick="goHome()">Home</button>
+    <button onclick="goWorkout()">Workout</button>
+  </div>
+
+</body>
+</html>
